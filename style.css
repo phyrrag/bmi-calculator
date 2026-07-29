@@ -28,7 +28,7 @@ body {
 }
 
 .container-input {
-  min-height: 265px;
+  min-height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +40,11 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+}
+
+#userError {
+    margin-top: 30px;
+    color: black;
 }
 
 button {
@@ -60,7 +65,8 @@ button:hover {
   background-color: white;
   min-width: 400px;
   min-height: 360px;
-  max-height: 360px;
+  max-height: 400px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
